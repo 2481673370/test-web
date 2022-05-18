@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="Keywords" content="收银系统,专卖,自助收银软件,思迅商云,SaaS收银系统,收银系统,收银软件,餐饮收银系统,零售收银系统,超市收银软件,餐饮收银软件,收银管理系统,连锁收银系统,超市软件,零售软件,餐饮软件">
+    <meta name="Description" content="思迅商业云平台·驱动零售数字化。选择思迅，将获得更大价值。有商业的地方就有思迅！思迅软件致力零售餐饮超市行业的收银系统与收银软件,为企业提供门店erp收银、进销存管理、会员营销于一体的超市收银系统、餐饮收银系统、零售收银系统等收银系统,通过餐饮收银软件、超市收银软件等覆盖多行业的智慧门店收银软件的推广应用,帮助连锁企业实现新零售升级。提供全国范围内4小时覆盖服务网络。">
+    <meta name="viewport" content="width=1180, user-scalable=no, target-densitydpi=device-dpi">
+
+    <title>思迅官网-收银系统_超市收银系统_收银软件_餐饮收银系统</title>
+     
+    <!-- 引入css全局样式 -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- 引入css自己样式 -->
+    <link rel="stylesheet" href="css/home-index.css">
+     
+    <!--网页图标-->
+	<link rel="icon" href="image/favicon.ico">
+	<!--字体图标-->
+	<link rel="stylesheet" href="css/iconfont.css">
+
+    <!--二级导航切换-->
+    <script>
+         
+       //封装通过id来查找元素的函数，不需要引入jquery库;
+       function $(id){
+           return typeof id === "string"?document.getElementById(id):document;
+       }
+       
+       window.onload = function(){
+           //获取5个标题名;
+           var items = $("list").getElementsByTagName("li");
+           //获取5个内容盒子;
+           var	divs = $("item").getElementsByTagName("div");
+           if(items.length != divs.length){
+               return;
+           }
+           
+           //循环遍历标题名和内容盒子;
+           for(var i = 0,len = items.length; i < len; i++){
+               items[i].id = i;
+               items[i].onmouseover = function(){
+                   for(var j = 0,len = items.length; j < len; j++){
+                       items[j].className = "";
+                       divs[j].style.display = "none";
+                   }
+                   this.className = "select";	
+                   divs[this.id].style.display = "block";
+               }
+           }
+       }
+       </script>
+
+  </head>
+  <body>
+
+    <!--头部开始-->
+    <div id="top-header">
+		<ul class="content"> 
+		   <li> 热线：400-777-9977</li>
+		   <li> 股票代码：838758</li>
+		   <li> 石基信息成员企业</li>   
+		   <li><a href="http://www.sixun.com.cn/english/default.aspx" target="_blank" title="切换英文" alt="切换英文" >
+			   <button class="en-btn">EN</button></a>
+		   </li>             
+	   </ul> 			
+   </div>
+
+    <!--顶部导航-->
+    <div class="nav">	
+	
+		<div class="wrap">
+
+			<!--导航开始-->
+			<div class="main-nav">
+				<!--导航logo-->
+				<div class="main-nav-logo">
+					<img src="./image/nav/logo.png" alt="">
+				</div>
+			
+				<!--导航开始-->
+				<div class="main-nav-cont">
+					<ul>
+						<li class="navdrop-donwn"><a href="#">产品</a>
+						
+							<div class="second-nav">
+								<div class="container-top" id="list">
+									<ul>
+										<li><a href="">智慧门店</a></li>
+										<li><a href="">商超百货</a></li>
+										<li><a href="">专卖店</a></li>
+										<li><a href="">餐饮烘焙</a></li>
+										<li><a href="">O2O产品</a></li>
+										<li><a href="">SaaS产品</a></li>
+										<li><a href="">移动应用</a></li>
+										<li><a href="">一体化硬件</a></li>
+									</ul>
+								</div>
+								<div class="container-bottom" id="item">
+									<div class="con">
+										<ul>
+											<li>
+												<img src="./image/nav/xx.png" alt="">
+												<a href="#">eShop小象</a>
+												</li>
+											<li>
+												<img src="./image/nav/fz.png" alt="">
+												<a href="#">服装之星</a>
+											</li>
+											<li>
+												<img src="./image/nav/sh.png" alt="">
+												<a href="#">商慧</a>
+											</li>
+											<li>
+												<img src="./image/nav/sr.png" alt="">
+												<a href="#">商锐</a>
+											</li>
+											<li>
+												<img src="./image/nav/sy.png" alt="">
+												<a href="#">商云</a>
+											</li>
+											<li>
+												<img src="./image/nav/xn.png" alt="">
+												<a href="#">小牛云商6</a>
+											</li>
+											
+										</ul>
+									</div>
+									<div class="con">
+										<ul>
+											<li><a href="#">商旗10</a></li>
+											<li><a href="#">商慧7</a></li>
+											<li><a href="#">商锐</a></li>
+                                            <li><a href="#">商云X</a></li>
+                                            <li><a href="#">海狮安卓POS</a></li>
+											
+										</ul>
+									</div>
+									<div class="con">
+										<ul>
+											<li><a href="#">爱贝母婴</a></li>
+											<li><a href="#">考拉母婴</a></li>
+											<li><a href="#">服装之星</a></li>
+											
+										</ul>
+									</div>
+									<div class="con">
+										<ul>
+											<li><a href="#">社区A</a></li>
+											<li><a href="#">社区B</a></li>
+											<li><a href="#">社区C</a></li>
+											
+										</ul>
+									</div>
+									<div class="con">
+										<ul>
+											<li><a href="#">反馈A</a></li>
+											<li><a href="#">反馈B</a></li>
+											<li><a href="#">反馈C</a></li>
+											<li><a href="#">反馈D</a></li>
+										</ul>
+									</div>
+									<div class="con">
+										<ul>
+											<li><a href="#">反馈A</a></li>
+											<li><a href="#">反馈B</a></li>
+											<li><a href="#">反馈C</a></li>
+											<li><a href="#">反馈D</a></li>
+										</ul>
+									</div>
+									<div class="con">
+										<ul>
+											<li><a href="#">反馈A</a></li>
+											<li><a href="#">反馈B</a></li>
+											<li><a href="#">反馈C</a></li>
+											<li><a href="#">反馈D</a></li>
+										</ul>
+									</div>
+									<div class="con">
+										<ul>
+											<li><a href="#">反馈A</a></li>
+											<li><a href="#">反馈B</a></li>
+											<li><a href="#">反馈C</a></li>
+											<li><a href="#">反馈D</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+						</li>
+						<li class="nav-text"><a href="#">伙伴</a></li>
+						<li class="nav-text"><a href="#">支持</a></li>
+						<li class="nav-text"><a href="#">社区</a></li>
+					</ul>
+				</div>				
+			</div>
+			<!--导航开始-->	
+
+		</div>	
+	</div>
+
+	<!--banner轮播-->	
+    <div class="banner_container">
+    <!-- 6张图片 -->
+        <ul class="img_box">
+        <li><img src="./image/home/banner3.png" alt=""></li>
+        <li><img src="./image/home/banner1.png" alt=""></li>
+        <li><img src="./image/home/banner2.png" alt=""></li>
+        <li><img src="./image/home/banner3.png" alt=""></li>
+        <li><img src="./image/home/banner1.png" alt=""></li>
+        </ul>
+
+    <!-- 中间圆点 -->
+        <ul class="sel_box">
+        <!-- 自定义属性 -->
+        <li data-index="0"></li>
+        <li data-index="1"></li>
+        <li data-index="2"></li>
+      
+        </ul>
+        <!-- 左箭头 
+        <div class="left_btn"><i class="iconfont">&#xe633;</i></div>-->
+        <!-- 右箭头 
+        <div class="right_btn"><i class="iconfont">&#xe631;</i></div>-->
+    </div>
+
+	<!--思迅商云-->
+    <div class="two-screen">
+
+        <div class="sybg">
+            <img src="./image/home/homebg1.png" alt="sybg">
+        </div>
+
+        <!--内容-->
+        <div class="sy_con">
+             <div class="sylogo" >
+                <img src="./image/home/sylogo.png" alt="sylogo">                
+                <p class="p">驱动零售数字化</p>     
+             </div>
+            
+            <div class="syfunction">
+                <div class="one">
+                    <img src="./image/home/home1.png" alt="">                                      
+                    <img src="./image/home/home1-h.png" alt="">                
+                </div>
+
+                <div class="one1">
+                    <img src="./image/home/home2.png" alt="">
+                    <img src="./image/home/home2-h.png" alt="">                      
+                </div>
+
+                <div class="one2">
+                    <img src="./image/home/home3.png" alt="">
+                    <img src="./image/home/home3-h.png" alt="">  
+                </div>
+                <div class="one3">
+                    <img src="./image/home/home4.png" alt="">
+                    <img src="./image/home/home4-h.png" alt="">  
+                </div>
+            </div>
+        </div>
+    </div>
+
+	 <!--24年沉淀背景-->
+	 <div class="three-screen">
+   
+		
+        <div class="title">
+            <h class="h1">24年思迅沉淀</h>
+            <p class="p1">国内领先的零售数字化解决方案</p>  
+        </div>
+
+        <!--24年沉淀开始-->
+        <div class="box">        
+            <div class="box-th">
+                <ul>
+                    <li data-index="0" class="current">优势</li>
+                    <li data-index="1">资本</li>
+                    <li data-index="2">荣誉</li>
+                    <li data-index="3">实力</li>
+                </ul>
+            </div>
+            <div class="box-tb">
+                <div class="item">
+                     <!--切换图片-->
+                    <img src="./image/home/homg5.png">
+                </div>
+                <div class="item">
+                    <img src="./image/home/homg6.png">
+                </div>
+                <div class="item">
+                    <img src="./image/home/homg7.png">
+                </div>
+                <div class="item">
+                    <img src="./image/home/home8.png">
+                </div>
+            </div>
+        </div>
+    
+        <script>
+            var list = document.querySelector('.box-th').querySelectorAll('li');
+            var items = document.querySelector('.box-tb').querySelectorAll('.item');
+            for (var i = 0; i < list.length; i++) {
+                list[i].onmouseover = function() {
+                    // 导航栏样式切换，排他算法
+                    for (var i = 0; i < list.length; i++) {
+                        list[i].className = '';
+                    }
+                    this.className = 'current';
+    
+                    // 下面展示内容切换，排他算法
+                    var index = this.getAttribute('data-index');
+                    for (var i = 0; i < items.length; i++) {
+                        items[i].style.display = 'none';
+                    }
+                    items[index].style.display = 'block';
+                }
+            }
+        </script>
+        <!--24年沉淀结束-->
+    
+    </div>    
+
+	 <!--新闻与活动-->
+	 <div class="four-screen">
+
+        <div class="newbg">
+            <img src="./image/home/homebg3.png" alt="">
+        </div>
+    
+        <!--内容-->
+        <div class="new_con">
+            <div class="new_title">
+                <h class="h2">新闻与活动</h>
+                <p class="p2">NEWS</p>  
+            </div>
+
+           <!--新闻图交互开始-->
+            <div class="news">
+                <div class="wrap">
+                    <div class="cont1">
+                        <div class="image2">
+                           <a href="#">
+                              <img src="./image/home/homg9.png" alt="">              
+                           </a>       
+                        </div>
+                        <li class="text">
+                           <h>蚂蚁集团战略投资思迅</h>
+                           <p>思迅引入蚂蚁集团作为新的战略投资者，进一步优化...</p>
+                        </li>
+                    </div>
+                    <div class="cont1">
+                        <div class="image2">
+                           <a href="#">
+                              <img src="./image/home/home10.png" alt="">              
+                           </a>       
+                        </div>
+                        <li class="text">
+                           <h>越优秀越努力！与实力派在一起！</h>
+                           <p>思迅荣登“2021年中国新三板挂牌公司百强排行榜”</p>
+                        </li>
+                    </div>
+                    <div class="cont1">
+                        <div class="image2">
+                           <a href="#">
+                              <img src="./image/home/home11.png" alt="">              
+                           </a>       
+                        </div>
+                        <li class="text">
+                           <h>思迅荣登新三板百强榜</h>
+                           <p>喜报！思迅荣登华顿经济研究院发布“2021年中国新三板...</p>
+                        </li>
+                    </div>
+                </div>
+            </div>
+           <!--新闻图交互结束--> 
+
+            <div class="button" type="button">
+                <a href="">查看更多新闻</a>           
+                <img src="./image/home/ic_3_4.png" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <!--底部内容-->
+    <div class="bottom">
+        <dl>
+            <dt>
+                <ul>
+                    <li>
+                        <span class="bottom_title"><a href="">关于思迅</a></span>
+                        <p><a href="">思迅介绍</a></p>
+                        <p><a href="">企业文化</a></p>
+                        <p><a href="">思迅招聘</a></p>
+                        <p><a href="">用户使用协议</a></p>
+                        <p><a href="">个人隐私政策</a></p>
+                    </li>               
+                    <li>
+                        <span class="bottom_title"><a href="">其他产品线</a></span>
+                        <p><a href="">eShop</a></p>
+                        <p><a href="">天店</a></p>
+                        <p><a href="">客至</a></p>    
+                    </li>
+                    <li>
+                        <span class="bottom_title"><a href="">联系思迅</a></span>
+                        <p><a href="">思迅总部</a></p>
+                        <p><a href="">分支机构</a></p>
+                        <p><a href="">渠道联系</a></p>
+                    </li>
+
+                    <!--信息提交-->
+                    <li>
+                        <span class="bottom_title"><a>如何购买</a></span>
+                        <p><a>销售热线：400-7779-977</a></p>
+                        <p><a>销售留言</a></p>
+
+                    <div class="message">
+                        <input type="text" class="phone" name="" placeholder="您的手机号"> 
+                        <input type="text" class="city" name="" placeholder="店铺所在身份城市"> 
+                        <!--
+                     <select id="country" name="country">
+                       <option value="australia">店铺所在身份城市</option>
+                       <option value="canada">Canada</option>
+                       <option value="usa">USA</option>
+                      
+                     </select>-->
+                        <input type="text" class="store" name="" placeholder="店铺类型">  
+
+                        
+                                         
+                        <button type="button" class="btn1">提交</button>
+                    </div>          
+                               
+                    </li>
+                </ul>
+            </dt>
+        </dl>
+
+        <div class="bottom_right">
+            <div class="scan">
+                <p>关注官方抖音号</p>
+                <img src="./image/home/scan1.png" alt="官方抖音号">
+            </div>
+            <div class="scan">
+               <p>关注微信视频号</p>
+               <img src="./image/home/scan2.png" alt="微信视频号">
+            </div>
+            <div class="scan">
+                <p>关注官方公众号</p>
+                <img src="./image/home/scan3.png" alt="官方公众号">
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p class="copyright_font">
+               深圳市思迅软件股份有限公司  版权所有
+               <br>
+               <!-- Copyright 2018 www.sixun.com .cn AII Rights Reserved. 粤ICP备14033072号 -->
+               Copyright 2018 www.sixun.com .cn AII Rights Reserved. <a href="http://beian.miit.gov.cn" target="_blank" id="special">粤ICP备14033072号</a>
+               &nbsp;&nbsp;
+               <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+               document.write(unescape("%3Cspan id='cnzz_stat_icon_1274134199'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/stat.php%3Fid%3D1274134199%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+               <span id="cnzz_stat_icon_1274134199">
+                   <a href="https://www.cnzz.com/stat/website.php?web_id=1274134199" target="_blank" title="站长统计">
+                       <!--隐藏
+                       <img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic.gif">-->
+                    </a>
+                </span>
+                       <script src=" http://s22.cnzz.com/stat.php?id=1274134199&amp;show=pic" type="text/javascript"></script>                   
+                       <script src="http://c.cnzz.com/core.php?web_id=1274134199&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script>
+            </p>
+        </div>
+    </div>
+
+
+	
+    <!-- 引入轮播js代码 -->
+    <script src="index.js"></script>
+
+  </body>
+</html>
+
